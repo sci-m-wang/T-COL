@@ -1,0 +1,270 @@
+Purpose,A42
+Ncredit,1497
+Odebtors,A102
+Property,A122
+House,A152
+Chistory,A33
+Purpose,A41
+EmploySince,A73
+Pstatus,A92
+Odebtors,A104
+ResidenceSince,5
+House,A153
+NTBcredit,2
+Job,A171
+NMpeople,2
+Telephone,A192
+Fworker,A202
+Purpose,A44
+Ncredit,1496
+EmploySince,A71
+Pstatus,A94
+Odebtors,A101
+Property,A121
+Age,25
+House,A154
+NTBcredit,3
+Telephone,A193
+Fworker,A203
+Property,A124
+House,A152
+NTBcredit,2
+Job,A173
+NMpeople,3
+Telephone,A194
+Purpose,A43
+EmploySince,A75
+Pstatus,A91
+Odebtors,A105
+ResidenceSince,3
+Property,A123
+Age,23
+House,A151
+Fworker,A201
+NMpeople,1
+Job,A174
+Telephone,A195
+Purpose,A42
+EmploySince,A72
+Insrate,5
+Pstatus,A93
+Odebtors,A102
+ResidenceSince,6
+Property,A121
+Age,24
+Insplans,A142
+House,A153
+NTBcredit,2
+NMpeople,2
+Telephone,A191
+Fworker,A202
+A93,A12,35,A40,12389,A65,A73,1,A93,A101,8,A124,38,A143,A153,1,A173,2,A192,A201
+A93,A12,31,A40,12389,A65,A73,1,A93,A101,10,A124,38,A143,A153,1,A173,2,A192,A201
+A93,A12,38,A40,12389,A65,A73,1,A93,A101,3,A124,38,A143,A153,1,A173,2,A192,A201
+A93,A12,33,A40,12389,A65,A73,1,A93,A101,7,A124,38,A143,A153,1,A173,2,A192,A201
+A93,A12,36,A40,12389,A65,A73,1,A93,A101,5,A124,38,A143,A153,1,A173,2,A192,A201
+Estatus            A2
+Duration            16
+Chistory           A30
+Purpose            A42
+Ncredit           1074
+Saccount           A62
+EmploySince        A76
+Insrate              1
+Pstatus            A92
+Odebtors          A103
+ResidenceSince      0
+Property          A121
+Age                 44
+Insplans          A141
+House             A151
+NTBcredit            0
+Job               A171
+NMpeople             2
+Telephone         A193
+Fworker           A202
+Estatus            A1
+Duration            10
+Chistory           A31
+Purpose            A41
+Ncredit           1586
+Saccount           A63
+EmploySince        A71
+Insrate              0
+Pstatus            A93
+Odebtors          A102
+ResidenceSince       1
+Property          A122
+Age                 34
+Insplans          A142
+House             A153
+NTBcredit            0
+Job               A172
+NMpeople             0
+Telephone         A192
+Fworker           A201
+Estatus            A2
+Duration            16
+Chistory           A30
+Purpose            A42
+Ncredit           1403
+Saccount           A61
+EmploySince        A76
+Insrate              1
+Pstatus            A92
+Odebtors          A103
+ResidenceSince      0
+Property          A121
+Age                 52
+Insplans          A141
+House             A151
+NTBcredit            0
+Job               A171
+NMpeople             2
+Telephone         A193
+Fworker           A202
+Estatus            A1
+Duration            12
+Chistory           A32
+Purpose            A40
+Ncredit           1402
+Saccount           A62
+EmploySince        A75
+Insrate              1
+Pstatus            A93
+Odebtors          A101
+ResidenceSince       1
+Property          A122
+Age                 40
+Insplans          A143
+House             A152
+NTBcredit            0
+Job               A172
+NMpeople             0
+Telephone         A191
+Fworker           A202
+Estatus            A1
+Duration            10
+Chistory           A31
+Purpose            A43
+Ncredit           1525
+Saccount           A61
+EmploySince        A72
+Insrate              0
+Pstatus            A93
+Odebtors          A103
+ResidenceSince       1
+Property          A121
+Age                 32
+Insplans          A142
+House             A151
+NTBcredit            0
+Job               A171
+NMpeople             0
+Telephone         A193
+Fworker           A203
+70,A65,A19,A45,6433,A62,A75,12,A93,A102,4,A124,36,A142,A151,1,A174,2,A191,A201
+63,A13,A27,A41,3900,A63,A74,15,A92,A102,1,A123,34,A144,A152,2,A174,2,A192,A202
+33,A61,A31,A45,4999,A64,A73,9,A91,A102,3,A124,25,A141,A151,1,A171,3,A192,A201
+69,A63,A15,A43,5381,A64,A71,3,A92,A102,5,A122,30,A141,A151,2,A172,1,A191,A201
+67,A61,A31,A41,5763,A65,A74,6,A92,A102,3,A123,37,A142,A151,1,A172,2,A192,A201
+Estatus            A11
+Duration            66
+Chistory           A32
+Purpose            A43
+Ncredit           3234
+Saccount           A61
+EmploySince        A72
+Insrate              4
+Pstatus            A92
+Odebtors          A101
+ResidenceSince       4
+Property          A121
+Age                 34
+Insplans          A143
+House             A151
+NTBcredit            1
+Job               A172
+NMpeople             1
+Telephone         A192
+Fworker           A201
+Estatus            A11
+Duration            24
+Chistory           A32
+Purpose            A42
+Ncredit           2500
+Saccount           A61
+EmploySince        A72
+Insrate              4
+Pstatus            A92
+Odebtors          A101
+ResidenceSince       4
+Property          A121
+Age                 23
+Insplans          A143
+House             A151
+NTBcredit            1
+Job               A171
+NMpeople             1
+Telephone         A192
+Fworker           A201
+Estatus            A11
+Duration            24
+Chistory           A32
+Purpose            A42
+Ncredit           3234
+Saccount           A61
+EmploySince        A72
+Insrate              4
+Pstatus            A92
+Odebtors          A101
+ResidenceSince       4
+Property          A121
+Age                 23
+Insplans          A142
+House             A151
+NTBcredit            1
+Job               A171
+NMpeople             1
+Telephone         A192
+Fworker           A201
+Estatus            A11
+Duration            24
+Chistory           A32
+Purpose            A42
+Ncredit           3234
+Saccount           A61
+EmploySince        A72
+Insrate              4
+Pstatus            A92
+Odebtors          A101
+ResidenceSince       4
+Property          A121
+Age                 23
+Insplans          A143
+House             A152
+NTBcredit            1
+Job               A171
+NMpeople             1
+Telephone         A192
+Fworker           A201
+Estatus            A11
+Duration            24
+Chistory           A32
+Purpose            A42
+Ncredit           3234
+Saccount           A61
+EmploySince        A72
+Insrate              4
+Pstatus            A92
+Odebtors          A101
+ResidenceSince       4
+Property          A121
+Age                 23
+Insplans          A143
+House             A151
+NTBcredit            1
+Job               A171
+NMpeople             1
+Telephone         A191
+Fworker           A201

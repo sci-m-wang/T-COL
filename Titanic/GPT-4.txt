@@ -1,0 +1,76 @@
+Pclass,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked,Survived
+1,Male,30,0,0,113803,53.1,C123,S,1
+1,Male,26,1,0,PC 17569,61.9792,B28,C,1
+2,Male,25,0,0,113781,30.0708,C22 C26,C,1
+1,Male,27,0,0,PC 17572,76.7292,D33,C,1
+1,Male,28,1,1,113781,151.55,C22 C26,S,1
+Pclass,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked,Survived
+1,Female,46.0,0,0,W.E.P. 5734,100.175,E31,S,1
+3,Male,23.0,0,0,W.E.P. 5734,30.175,E31,S,1
+1,Male,46.0,1,1,W.E.P. 5734,200.175,E31,S,1
+1,Female,46.0,1,2,W.E.P. 5734,150.175,E31,S,1
+1,Female,46.0,0,0,W.E.P. 5734,100.175,E31,C,1
+Pclass,2,Female,50.0,1,0,113784,55.4417,E31,C,1
+Pclass,1,Female,71.0,0,0,PC 17483,221.7792,C95,C,1
+Pclass,1,Female,71.0,1,1,113509,61.9792,B49,C,1
+Pclass,1,Female,71.0,0,0,PC 17482,211.3375,C85,C,1
+Pclass,1,Female,71.0,0,0,PC 17485,56.9292,E36,C,1
+Pclass            1
+Sex            male
+Age            23.0
+SibSp             1
+Parch             1
+Ticket        35281
+Fare        77.2875
+Cabin           D26
+Embarked          C
+Survived: 1 
+
+Pclass            1
+Sex            male
+Age            21.0
+SibSp             0
+Parch             2
+Ticket        35281
+Fare        77.2875
+Cabin           D26
+Embarked          S
+Survived: 1
+
+Pclass            1
+Sex            male
+Age            24.0
+SibSp             1
+Parch             1
+Ticket        35281
+Fare        100.2875
+Cabin           B26
+Embarked          C
+Survived: 1
+
+Pclass            1
+Sex            male
+Age            22.0
+SibSp             1
+Parch             2
+Ticket        35281
+Fare        90.2875
+Cabin           C26
+Embarked          C
+Survived: 1
+
+Pclass            1
+Sex            male
+Age            21.0
+SibSp             1
+Parch             3
+Ticket        35281
+Fare        95.2875
+Cabin           B26
+Embarked          C
+Survived: 1
+Pclass,3,Male,21.0,0,0,250655,8.05,S107,S,1
+Pclass,3,Male,22.0,0,0,244373,13.00,S108,S,1
+Pclass,3,Male,23.0,1,0,2926,26.00,S109,S,1
+Pclass,3,Male,24.0,0,0,373450,8.05,S110,S,1
+Pclass,3,Male,25.0,1,0,16988,30.00,S111,S,1

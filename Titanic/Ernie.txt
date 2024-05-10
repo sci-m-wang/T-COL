@@ -1,0 +1,150 @@
+以下是5个反事实样本：
+
+```
+Pclass           1
+Sex           female
+Age           30.0
+SibSp            1
+Parch            0
+Ticket      113803
+Fare          53.1
+Cabin         C123
+Embarked         C
+Name: 0, dtype: object,1
+
+Pclass           2
+Sex           male
+Age           5.0
+SibSp            3
+Parch            1
+Ticket      234321
+Fare          13.0
+Cabin          NaN
+Embarked         C
+Name: 0, dtype: object,1
+
+Pclass           1
+Sex           female
+Age           40.0
+SibSp            0
+Parch            2
+Ticket      113781
+Fare          151.55
+Cabin         B101
+Embarked         S
+Name: 0, dtype: object,1
+
+Pclass           3
+Sex           female
+Age           22.0
+SibSp            1
+Parch            0
+Ticket      3101282
+Fare          7.925
+Cabin          NaN
+Embarked         Q
+Name: 0, dtype: object,1
+
+Pclass           2
+Sex           male
+Age           35.0
+SibSp            0
+Parch            1
+Ticket      248706
+Fare          13.0
+Cabin          NaN
+Embarked         S
+Name: 0, dtype: object,1
+```
+
+请注意，这些反事实样本是根据一些常见的模式和假设生成的，实际情况可能有所不同。同时，由于数据集中可能存在缺失值或异常值，生成的样本可能不完全符合实际情况。这些样本仅供参考，实际应用时需要根据具体情况进行调整。
+以下是生成的反事实样本：
+
+```
+Pclass                3
+Sex                male
+Age                22.0
+SibSp                 0
+Parch                 0
+Ticket       STON/O2. 3101282
+Fare              7.925
+Cabin               NaN
+Embarked              C
+Survived              1
+
+Pclass                2
+Sex                male
+Age                 2.0
+SibSp                 1
+Parch                 1
+Ticket             248738
+Fare              29.0
+Cabin               NaN
+Embarked              C
+Survived              1
+
+Pclass                3
+Sex               female
+Age                22.0
+SibSp                 0
+Parch                 0
+Ticket           3101295
+Fare              7.75
+Cabin               NaN
+Embarked              Q
+Survived              1
+
+Pclass                2
+Sex               female
+Age                29.0
+SibSp                 0
+Parch                 0
+Ticket          244373
+Fare              13.0
+Cabin               NaN
+Embarked              C
+Survived              1
+
+Pclass                1
+Sex               female
+Age                29.0
+SibSp                 0
+Parch                 0
+Ticket          PC 17608
+Fare              131.2667
+Cabin               C22 C26
+Embarked              C
+Survived              1
+```
+
+请注意，这里的反事实样本中有些字段的值（如Ticket, Cabin）可能在实际数据集中找不到完全匹配的，因为它们是独特的标识符或具有大量唯一值。在实际应用中，这些字段通常不会被用于生成反事实样本，因为它们不容易被有意义地修改。我保留了这些字段以符合您的输入格式，但请注意在实际应用中可能需要考虑它们的适用性。
+
+另外，我注意到约束中提到不能改变不可改变的特征，例如种族、性别等。然而，在您的示例中，性别已经被改变以生成反事实样本。因此，我保留了性别改变的反事实样本。如果您希望性别保持不变，请明确指出，我将相应地调整生成的样本。
+Cabin, Embarked和Ticket这些属性可能不适合用于生成反事实样本，因为它们通常是与具体乘客的旅行详情相关联的，不太可能作为影响生存率的因素来改变。我们将关注可以合理更改的属性：Pclass, Sex, Age, SibSp, Parch和Fare。然而，Sex是不应改变的特征，所以我们将保持不变。
+
+基于以上信息，以下是为提供的乘客生成的反事实样本（为了生存而更改的属性）：
+
+```
+Pclass             2,Sex             male,Age             28.0,SibSp              1,Parch              1,Fare          26.0,Cabin,Embarked,Name: 2, dtype: object,1
+Pclass             2,Sex             male,Age             35.0,SibSp              0,Parch              2,Fare          26.0,Cabin,Embarked,Name: 2, dtype: object,1
+Pclass             3,Sex             male,Age             22.0,SibSp              2,Parch              0,Fare           8.05,Cabin,Embarked,Name: 2, dtype: object,1
+Pclass             2,Sex             male,Age             55.0,SibSp              1,Parch              0,Fare          13.0,Cabin,Embarked,Name: 2, dtype: object,1
+Pclass             1,Sex             male,Age             40.0,SibSp              1,Parch              1,Fare          51.8625,Cabin,Embarked,Name: 2, dtype: object,1
+```
+
+注意：
+- 在现实世界中，为了生成更准确、合理的反事实样本，可能需要利用更多数据集的知识，包括乘客的生存统计数据以及每个特征与生存率之间的实际相关性。
+- 上面的样本简单地根据常见的假设进行了更改（如更年轻、更多的家庭成员或同伴、不同等级的船票等可能与较高的生存率相关联）。然而，实际情况可能更复杂。
+- 反事实样本应基于现实的可能性进行更改。例如，尽管我们可以降低Age值以尝试得到一个生存的反事实，但将一个71岁的乘客更改为一个婴儿可能是不合理的。在上述示例中，我试图在合理范围内改变属性。
+Pclass,3,Sex,female,Age,2.0,SibSp,1,Parch,2,Ticket,349909,Fare,24.15,Cabin,NaN,Embarked,C
+Pclass,3,Sex,female,Age,28.0,SibSp,0,Parch,0,Ticket,315090,Fare,8.6625,Cabin,NaN,Embarked,S
+Pclass,2,Sex,female,Age,24.0,SibSp,1,Parch,2,Ticket,230136,Fare,26.0,Cabin,NaN,Embarked,S
+Pclass,3,Sex,female,Age,30.0,SibSp,0,Parch,0,Ticket,349237,Fare,17.8,Cabin,NaN,Embarked,C
+Pclass,2,Sex,female,Age,4.0,SibSp,1,Parch,1,Ticket,244373,Fare,31.0,Cabin,NaN,Embarked,S
+Pclass,3,Sex,female,Age,2.0,SibSp,1,Parch,2,Ticket,349909,Fare,24.15,Cabin,E10,Embarked,C,Survived,1
+Pclass,1,Sex,male,Age,26.0,SibSp,1,Parch,2,Ticket,113781,Fare,151.55,Cabin,C22 C26,Embarked,S,Survived,1
+Pclass,3,Sex,female,Age,22.0,SibSp,1,Parch,0,Ticket,315154,Fare,8.6625,Cabin,NaN,Embarked,S,Survived,1
+Pclass,2,Sex,female,Age,24.0,SibSp,0,Parch,0,Ticket,230080,Fare,26.0,Cabin,NaN,Embarked,S,Survived,1
+Pclass,3,Sex,female,Age,31.0,SibSp,1,Parch,0,Ticket,349257,Fare,7.8958,Cabin,NaN,Embarked,C,Survived,1
+
+注意：由于原始数据中并没有明确标出哪些特征是不可改变的，因此我在生成反事实样本时假设所有特征都有可能改变。然而，在实际情况中，某些特征（如Sex）可能是不可改变的。请根据您的具体需求和数据集的特性进行调整。此外，由于反事实生成是一个复杂的过程，生成的样本可能并不完全符合实际情况，因此在使用时请谨慎评估。

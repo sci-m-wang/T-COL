@@ -1,0 +1,164 @@
+3, female, 25.0, 0, 0, Ticket_348123, 7.65, Cabin_F G73, S
+3, male, 25.0, 1, 0, Ticket_348123, 7.65, Cabin_F G73, S
+3, male, 25.0, 0, 1, Ticket_348123, 7.65, Cabin_F G73, S
+3, male, 25.0, 0, 0, Ticket_348123, 7.65, Cabin_F G73, C
+3, male, 25.0, 0, 0, Ticket_348123, 7.65, Cabin_F G73, Q
+3,male,46.0,2,0,W.E.P. 5734,61.175,E31,S
+2,male,46.0,1,0,W.E.P. 5734,61.175,E31,S
+1,male,46.0,1,0,W.E.P. 5734,61.175,E31,S
+2,male,46.0,0,0,W.E.P. 5734,61.175,E31,S
+1,male,46.0,0,0,W.E.P. 5734,61.175,E31,S
+Pclass             1
+Sex             female
+Age             71.0
+SibSp              0
+Parch              0
+Ticket           A/5. 21171
+Fare         34.6542
+Cabin             A5
+Embarked           N
+Name: 2, dtype: object
+
+Pclass             1
+Sex             male
+Age             21.0
+SibSp              0
+Parch              0
+Ticket           PC 17754
+Fare         34.6542
+Cabin             A5
+Embarked           S
+Name: 2, dtype: object
+
+Pclass             2
+Sex             male
+Age             71.0
+SibSp              0
+Parch              0
+Ticket           PC 17754
+Fare         34.6542
+Cabin             A5
+Embarked           C
+Name: 2, dtype: object
+
+Pclass             1
+Sex             male
+Age             71.0
+SibSp              1
+Parch              0
+Ticket           PC 17754
+Fare         34.6542
+Cabin             A5
+Embarked           C
+Name: 2, dtype: object
+
+Pclass             1
+Sex             male
+Age             40.0
+SibSp              0
+Parch              0
+Ticket           PC 17754
+Fare         34.6542
+Cabin             A5
+Embarked           C
+Name: 2, dtype: object
+Pclass            3
+Sex            male
+Age            16.0
+SibSp             0
+Parch             1
+Ticket        35281
+Fare        77.2875
+Cabin           D26
+Embarked          S
+Name: 3, dtype: object
+Pclass            2
+Sex            male
+Age            21.0
+SibSp             2
+Parch             0
+Ticket        35281
+Fare        77.2875
+Cabin           D26
+Embarked          S
+Name: 3, dtype: object
+Pclass            1
+Sex            female
+Age            21.0
+SibSp             0
+Parch             1
+Ticket        35281
+Fare        77.2875
+Cabin           D26
+Embarked          S
+Name: 3, dtype: object
+Pclass            2
+Sex            male
+Age            21.0
+SibSp             0
+Parch             2
+Ticket        35281
+Fare        77.2875
+Cabin           D26
+Embarked          S
+Name: 3, dtype: object
+Pclass            3
+Sex            male
+Age            21.0
+SibSp             1
+Parch             1
+Ticket        35281
+Fare        77.2875
+Cabin           D26
+Embarked          S
+Name: 3, dtype: object
+Pclass           3
+Sex           male
+Age           47.0
+SibSp            0
+Parch            0
+Ticket      110465
+Fare          52.0
+Cabin          B110
+Embarked         S
+Name: 4, dtype: object
+Pclass           2
+Sex           male
+Age           47.0
+SibSp            0
+Parch            1
+Ticket      110465
+Fare          52.0
+Cabin          D110
+Embarked         S
+Name: 4, dtype: object
+Pclass           3
+Sex           male
+Age           37.0
+SibSp            0
+Parch            0
+Ticket      110465
+Fare          52.0
+Cabin          B110
+Embarked         S
+Name: 4, dtype: object
+Pclass           2
+Sex           male
+Age           47.0
+SibSp            1
+Parch            0
+Ticket      110465
+Fare          52.0
+Cabin          D110
+Embarked         S
+Name: 4, dtype: object
+Pclass           3
+Sex           male
+Age           47.0
+SibSp            0
+Parch            0
+Ticket      110465
+Fare          62.0
+Cabin          B110
+Embarked         S
+Name: 4, dtype: object

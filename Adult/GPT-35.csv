@@ -1,0 +1,26 @@
+age,workclass,education,marital_status,occupation,race,gender,hours_per_week,income
+36,Private,Some-college,Single,White-Collar,White,Female,40,1
+35,Private,Some-college,Single,White-Collar,White,Female,40,1
+34,Private,Some-college,Married,White-Collar,White,Female,40,1
+34,Private,Some-college,Single,White-Collar,White,Male,40,1
+34,Private,Some-college,Single,Blue-Collar,White,Female,40,1
+38, Private, High School, Divorced, White-Collar, White, Female,45,1
+34, Private, College, Divorced, White-Collar, White, Female,35,1
+39, Private, High School, Divorced, Professional, White, Female,50,1
+40, Private, College, Divorced, White-Collar, White, Female,55,1
+37, Private, High School, Divorced, Service, White, Female,60,1
+29,Government,Some-college,Single,Service,Other,Male,40,1
+36,Government,Some-college,Single,Service,Other,Male,40,1
+35,Government,High-school,Single,Service,Other,Male,40,1
+35,Government,Some-college,Married,Service,Other,Male,40,1
+35,Government,Some-college,Single,Service,White,Male,40,1
+53,Government,HS-grad,Married,White-Collar,White,Female,40,1
+51,Private,Some-college,Married,White-Collar,White,Female,40,1
+51,Government,HS-grad,Never-married,White-Collar,White,Female,40,1
+51,Government,HS-grad,Married,Service,White,Female,40,1
+51,Government,HS-grad,Married,White-Collar,Black,Female,40,1
+31,Private,HS-grad,Single,Service,White,Male,20,1
+33,Private,HS-grad,Single,Service,White,Male,20,1
+29,Private,HS-grad,Married,Service,White,Male,20,1
+29,Private,HS-grad,Single,Service,Asian,Male,20,1
+29,Self-emp-inc,HS-grad,Single,Service,White,Male,20,1

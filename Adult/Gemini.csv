@@ -1,0 +1,26 @@
+age,workclass,education,marital_status,occupation,race,gender,hours_per_week,income
+42, Private, Bachelors, Married, White-Collar, White, Female,35,1
+38, Private, Masters, Divorced, White-Collar, White, Female,50,1
+45, Private, Bachelors, Divorced, White-Collar, White, Male,30,1
+40, Private, Associates, Married, Blue-Collar, White, Male,35,1
+40, Private, Bachelors, Separated, White-Collar, White, Male,30,1
+33,Private,Bachelors,Married,White-Collar,White,Female,40,1
+31,Private,Masters,Married,White-Collar,White,Female,40,1
+30,Private,Bachelors,Married,White-Collar,White,Female,40,1
+32,Private,Bachelors,Married,Blue-Collar,White,Female,40,1
+34,Private,Bachelors,Married,White-Collar,White,Female,60,1
+29,Government,Some-college,Married,Service,Other,Male,50,1
+36,Federal-gov,HS-grad,Married,Prof-specialty,White,Male,55,1
+26,Private,Bachelors,Married,Exec-managerial,Other,Male,50,1
+23,Private,Bachelors,Married,Sales,White,Male,60,1
+27,Private,Some-college,Married,Sales,White,Male,55,1
+33,Government,HS-grad,Single,Blue-Collar,White,Female,40,1
+31,Self-Employed,HS-grad,Married,Sales,Black,Female,50,1
+31,Private,Bachelors,Married,Sales,White,Female,50,1
+33,Government,Bachelors,Married,Blue-Collar,White,Female,40,1
+31,Self-Employed,Bachelors,Married,Sales,Black,Female,50,1
+40,Private,Bachelors,Married,Sales,White,Male,40,1
+26,Government,HS-grad,Single,Sales,White,Male,20,1
+44,Self-emp-not-inc,HS-grad,Married,Service,White,Female,40,1
+26,Private,Some-college,Married,Sales,White,Male,20,1
+34,Government,HS-grad,Married,Craft-repair,Asian-Pac-Islander,Male,40,1

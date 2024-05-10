@@ -1,0 +1,130 @@
+A12,36,A32,A41,2748,A62,A75,2,A93,A101,5,A124,26,A143,A152,2,A172,2,A192,A202
+A13,48,A33,A42,5648,A63,A75,2,A93,A101,5,A125,28,A143,A152,2,A172,2,A192,A202
+A14,60,A34,A44,9548,A64,A75,2,A93,A101,5,A125,30,A143,A152,2,A172,2,A192,A202
+A12,36,A32,A45,2748,A62,A75,2,A93,A101,5,A123,26,A142,A153,2,A173,2,A192,A202
+A13,48,A33,A46,5648,A63,A75,2,A94,A102,6,A124,28,A143,A153,2,A174,2,A192,A202
+A12,12,A33,A40,5432,A61,A75,3,A92,A101,3,A122,40,A143,A152,2,A173,1,A191,A202
+A12,18,A34,A41,9765,A62,A74,4,A93,A101,2,A123,42,A143,A152,2,A173,1,A192,A202
+A12,24,A34,A40,7891,A62,A75,2,A92,A102,3,A121,43,A143,A152,2,A173,1,A192,A201
+A12,30,A32,A42,6357,A64,A73,1,A94,A101,4,A121,38,A143,A153,2,A174,1,A191,A202
+A12,48,A33,A43,4567,A65,A74,3,A91,A103,2,A124,39,A143,A151,2,A174,1,A192,A201
+A14,24,A34,A41,1500,A62,A75,3,A92,A102,4,A124,38,A143,A153,1,A174,1,A192,A202
+A14,20,A34,A42,1600,A62,A75,2,A92,A101,2,A124,45,A142,A152,1,A174,1,A192,A202
+A13,18,A34,A42,1700,A62,A75,4,A92,A102,3,A124,42,A142,A153,1,A174,1,A191,A202
+A13,30,A33,A43,1800,A62,A75,2,A92,A101,4,A123,48,A142,A152,2,A173,2,A192,A202
+A14,16,A33,A44,1900,A62,A75,1,A92,A102,2,A122,50,A143,A152,2,A173,2,A191,A202
+A11,24,A34,A46,2873,A65,A72,4,A94,A101,4,A121,35,A143,A151,1,A173,2,A191,A202
+A12,30,A34,A43,3071,A62,A73,2,A93,A101,3,A122,32,A143,A153,1,A173,1,A191,A201
+A12,36,A33,A40,3895,A63,A72,3,A93,A102,4,A122,33,A142,A152,1,A174,1,A192,A202
+A11,42,A32,A41,4219,A61,A74,4,A93,A101,4,A123,37,A141,A151,2,A173,1,A191,A202
+A14,33,A32,A42,2071,A66,A71,2,A93,A101,3,A121,33,A143,A152,1,A173,1,A191,A202
+
+Estatus            A12
+Duration            24
+Chistory           A32
+Purpose            A42
+Ncredit           3234
+Saccount           A65
+EmploySince        A72
+Insrate              4
+Pstatus            A94
+Odebtors          A101
+ResidenceSince       5
+Property          A121
+Age                 27
+Insplans          A143
+House             A153
+NTBcredit            2
+Job               A172
+NMpeople             2
+Telephone         A191
+Fworker           A201
+Name: 4, dtype: object
+
+Estatus            A13
+Duration            32
+Chistory           A32
+Purpose            A42
+Ncredit           4234
+Saccount           A65
+EmploySince        A73
+Insrate              3
+Pstatus            A94
+Odebtors          A101
+ResidenceSince       5
+Property          A123
+Age                 30
+Insplans          A143
+House             A153
+NTBcredit            2
+Job               A172
+NMpeople             2
+Telephone         A191
+Fworker           A202
+Name: 4, dtype: object
+
+Estatus            A14
+Duration            35
+Chistory           A34
+Purpose            A42
+Ncredit           5000
+Saccount           A65
+EmploySince        A75
+Insrate              2
+Pstatus            A94
+Odebtors          A101
+ResidenceSince       6
+Property          A124
+Age                 34
+Insplans          A143
+House             A153
+NTBcredit            3
+Job               A173
+NMpeople             2
+Telephone         A191
+Fworker           A203
+Name: 4, dtype: object
+
+Estatus            A14
+Duration            40
+Chistory           A35
+Purpose            A42
+Ncredit           6000
+Saccount           A65
+EmploySince        A75
+Insrate              1
+Pstatus            A94
+Odebtors          A101
+ResidenceSince       6
+Property          A124
+Age                 38
+Insplans          A143
+House             A153
+NTBcredit            4
+Job               A173
+NMpeople             2
+Telephone         A191
+Fworker           A203
+Name: 4, dtype: object
+
+Estatus            A14
+Duration            45
+Chistory           A35
+Purpose            A44
+Ncredit           7000
+Saccount           A65
+EmploySince        A75
+Insrate              1
+Pstatus            A94
+Odebtors          A102
+ResidenceSince       6
+Property          A124
+Age                 40
+Insplans          A143
+House             A152
+NTBcredit            4
+Job               A174
+NMpeople             2
+Telephone         A191
+Fworker           A203
+Name: 4, dtype: object

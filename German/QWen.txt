@@ -1,0 +1,154 @@
+由于您提供的数据集和类别含义与我预设的场景不符，且未明确指出期望目标类别，请您提供以下信息以便我能准确生成反事实样本：
+
+1. 目标类别：请说明“0”所代表的具体类别含义（例如拒绝发放贷款、不良信用等）。
+2. 可改变属性：请列出哪些属性是允许在生成反事实样本时进行合理调整的。
+3. 反事实目标：请指定希望该样本满足何种条件以获得期望的结果类别。
+
+根据这些额外信息，我将能为您生成符合要求的反事实样本。
+由于您提供的数据集和类别含义与我预设的场景有所不同，但根据常规反事实生成任务的要求，假设类别0表示“未获得贷款”，类别1表示“获得贷款”，以下是五个可能的反事实样本：
+
+1. Estatus             A12
+   Duration            48
+   Chistory           A32
+   Purpose            A40
+   Ncredit          15000
+   Saccount           A65
+   EmploySince        A73
+   Insrate              1
+   Pstatus            A93
+   Odebtors          A101
+   ResidenceSince       5
+   Property          A124
+   Age                   40
+   Insplans          A143
+   House             A153
+   NTBcredit             1
+   Job                A173
+   NMpeople             2
+   Telephone         A192
+   Fworker           A201
+
+2. Estatus             A12
+   Duration            42
+   Chistory           A32
+   Purpose            A40
+   Ncredit          10000
+   Saccount           A65
+   EmploySince        A73
+   Insrate              0
+   Pstatus            A93
+   Odebtors           A101
+   ResidenceSince       5
+   Property          A124
+   Age                   35
+   Insplans          A143
+   House             A153
+   NTBcredit             0
+   Job                A173
+   NMpeople             1
+   Telephone         A192
+   Fworker           A201
+
+3. Estatus             A12
+   Duration            30
+   Chistory           A32
+   Purpose            A40
+   Ncredit          18000
+   Saccount           A65
+   EmploySince        A74
+   Insrate              1
+   Pstatus            A93
+   Odebtors           A101
+   ResidenceSince       6
+   Property          A124
+   Age                   38
+   Insplans          A143
+   House             A153
+   NTBcredit             1
+   Job                A173
+   NMpeople             1
+   Telephone         A192
+   Fworker           A201
+
+4. Estatus             A11
+   Duration            36
+   Chistory           A32
+   Purpose            A40
+   Ncredit          11000
+   Saccount           A65
+   EmploySince        A73
+   Insrate              1
+   Pstatus            A92
+   Odebtors           A101
+   ResidenceSince       4
+   Property          A124
+   Age                   37
+   Insplans          A143
+   House             A153
+   NTBcredit             1
+   Job                A173
+   NMpeople             1
+   Telephone         A192
+   Fworker           A201
+
+5. Estatus             A12
+   Duration            36
+   Chistory           A32
+   Purpose            A41
+   Ncredit          12389
+   Saccount           A65
+   EmploySince        A73
+   Insrate              1
+   Pstatus            A93
+   Odebtors           A101
+   ResidenceSince       4
+   Property          A124
+   Age                   37
+   Insplans          A143
+   House             A153
+   NTBcredit             1
+   Job                A173
+   NMpeople             1
+   Telephone         A192
+   Fworker           A201
+
+请注意，以上样例是基于一般逻辑推理生成的，并非实际模型计算结果。在实际情况中，需要根据具体模型和业务规则来调整特征以满足目标类别（即获得贷款）。
+由于您提供的数据集和类别含义与我预设的场景有所不同，但根据常规流程，假设类别“0”表示未获得信用（credits），以下是五个反事实样本：
+
+1. Estatus A12, Duration 24, Chistory A33, Purpose A41, Ncredit 1500, Saccount A62, EmploySince A76, Insrate 3, Pstatus A92, Odebtors A102, ResidenceSince 4, Property A124, Age 38, Insplans A144, House A153, NTBcredit 2, Job A174, NMpeople 2, Telephone A192, Fworker A202
+2. Estatus A11, Duration 18, Chistory A31, Purpose A39, Ncredit 1200, Saccount A60, EmploySince A72, Insrate 1, Pstatus A90, Odebtors A100, ResidenceSince 2, Property A122, Age 34, Insplans A142, House A151, NTBcredit 0, Job A172, NMpeople 0, Telephone A190, Fworker A200
+3. Estatus A10, Duration 10, Chistory A30, Purpose A38, Ncredit 1000, Saccount A59, EmploySince A70, Insrate 1, Pstatus A89, Odebtors A99, ResidenceSince 1, Property A121, Age 32, Insplans A141, House A150, NTBcredit 0, Job A171, NMpeople 0, Telephone A189, Fworker A199
+4. Estatus A13, Duration 15, Chistory A34, Purpose A42, Ncredit 1400, Saccount A63, EmploySince A75, Insrate 2, Pstatus A93, Odebtors A103, ResidenceSince 3, Property A125, Age 37, Insplans A145, House A154, NTBcredit 1, Job A175, NMpeople 1, Telephone A193, Fworker A203
+5. Estatus A14, Duration 20, Chistory A35, Purpose A43, Ncredit 1600, Saccount A64, EmploySince A77, Insrate 3, Pstatus A94, Odebtors A104, ResidenceSince 4, Property A126, Age 39, Insplans A146, House A155, NTBcredit 1, Job A176, NMpeople 1, Telephone A194, Fworker A204
+
+请注意，以上样例是基于对原样本属性值进行合理调整以尝试满足获得信用（非0类别）条件的假设性结果。在实际应用中，需要确保这些变化符合业务逻辑和数据集的具体情况。
+由于您提供的数据集和类别含义与我内部设定的标准不完全匹配，为了生成反事实样本，请进一步明确以下几点：
+
+1. 类别“0”在“credits”中的具体含义是什么？（例如：是否获批信用、信用等级等）
+2. 哪些属性是数值型的，哪些是分类的？
+3. 哪些属性是不可改变或不应改变的？
+
+假设“0”表示未获批信用，且所有属性均可合理调整以生成反事实样例，基于当前信息，这里提供一个模拟的反事实样本输出（实际应用中请根据实际情况调整）：
+
+A11,60,A32,A43,7000,A61,A73,4,A92,B101,3,A123,32,A143,A152,0,A173,2,A192,A201
+A11,42,A32,A43,8000,A61,A73,3,A92,A101,4,A123,30,A143,A152,0,A173,1,A192,A201
+A11,50,A32,B43,7500,A61,A73,2,A92,A101,3,A123,31,A143,B152,1,A173,1,A192,B201
+A11,45,A32,A43,7200,A61,B73,3,A92,A101,2,A123,31,A143,A152,0,A173,1,A192,A201
+A11,46,B32,A43,7000,A61,A73,3,B92,A101,2,A123,30,A143,A152,1,A173,2,A192,A201
+
+请注意，上述示例仅作为格式参考，实际生成的反事实样本应根据每个特征对信用审批结果的影响程度以及业务逻辑进行合理调整。
+由于您提供的数据集和类别含义与我内部设定的标准不完全匹配，为了生成反事实样本，请进一步明确以下几点：
+
+1. 类别“0”在“credits”任务中具体代表什么含义？（例如：拒绝贷款、低信用评级等）
+2. 哪些属性是连续的，哪些是离散的？
+3. 哪些属性是不可改变或不应改变的？
+
+假设“0”表示未获得贷款，且所有属性均可合理调整以生成反事实样本，以下是五个可能的反事实样本示例：
+
+1. Estatus A12, Duration 36, Chistory A33, Purpose A43, Ncredit 5000, Saccount A62, EmploySince A73, Insrate 5, Pstatus A93, Odebtors A102, ResidenceSince 5, Property A122, Age 25, Insplans A144, House A152, NTBcredit 2, Job A173, NMpeople 2, Telephone A193, Fworker A202
+2. Estatus A13, Duration 30, Chistory A31, Purpose A41, Ncredit 4000, Saccount A63, EmploySince A71, Insrate 3, Pstatus A91, Odebtors A103, ResidenceSince 3, Property A123, Age 24, Insplans A142, House A153, NTBcredit 0, Job A171, NMpeople 0, Telephone A191, Fworker A203
+3. Estatus A14, Duration 28, Chistory A34, Purpose A44, Ncredit 3500, Saccount A64, EmploySince A74, Insrate 6, Pstatus A94, Odebtors A104, ResidenceSince 6, Property A124, Age 26, Insplans A145, House A154, NTBcredit 3, Job A174, NMpeople 3, Telephone A194, Fworker A204
+4. Estatus A15, Duration 32, Chistory A35, Purpose A45, Ncredit 3000, Saccount A65, EmploySince A75, Insrate 7, Pstatus A95, Odebtors A105, ResidenceSince 7, Property A125, Age 27, Insplans A146, House A155, NTBcredit 4, Job A175, NMpeople 4, Telephone A195, Fworker A205
+5. Estatus A16, Duration 26, Chistory A36, Purpose A46, Ncredit 2500, Saccount A66, EmploySince A76, Insrate 8, Pstatus A96, Odebtors A106, ResidenceSince 8, Property A126, Age 28, Insplans A147, House A156, NTBcredit 5, Job A176, NMpeople 5, Telephone A196, Fworker A206
+
+请注意，以上样例基于对每个属性进行合理变化的假设。在实际应用中，需要根据具体业务逻辑和数据分布来确定合理的反事实样本。如果某些属性有特定约束条件（如年龄增长限制、工作年限不能倒退等），请提供这些信息以便准确生成反事实样本。

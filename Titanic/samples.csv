@@ -1,0 +1,6 @@
+Pclass,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked,Survived
+3,male,25.0,0,0,348123,7.65,F G73,S,0
+1,male,46.0,1,0,W.E.P. 5734,61.175,E31,S,0
+1,male,71.0,0,0,PC 17754,34.6542,A5,C,0
+1,male,21.0,0,1,35281,77.2875,D26,S,0
+1,male,47.0,0,0,110465,52.0,C110,S,0

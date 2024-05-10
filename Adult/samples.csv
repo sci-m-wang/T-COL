@@ -1,0 +1,6 @@
+age,workclass,education,marital_status,occupation,race,gender,hours_per_week,income
+34,Private,Some-college,Single,White-Collar,White,Female,40,0
+36,Private,School,Divorced,White-Collar,White,Female,40,0
+35,Government,Some-college,Single,Service,Other,Male,40,0
+51,Government,HS-grad,Married,White-Collar,White,Female,40,0
+29,Government,HS-grad,Single,Service,White,Male,20,0

@@ -1,0 +1,134 @@
+24, A11, 36, A31, A43, 2000, A61, A74, 4, A93, A103, 4, A123, 26, A141, A151, 1, A172, 1, A191, A201, 1
+24, A11, 24, A31, A43, 1546, A61, A74, 6, A93, A103, 6, A123, 24, A141, A151, 2, A172, 1, A191, A201, 0
+24, A11, 24, A31, A43, 1546, A61, A74, 4, A93, A103, 4, A123, 24, A141, A151, 1, A172, 2, A191, A201, 1
+24, A11, 24, A31, A43, 1800, A61, A74, 4, A93, A103, 4, A123, 24, A141, A151, 1, A172, 1, A191, A201, 0
+24, A11, 24, A31, A43, 1546, A61, A74, 4, A93, A103, 4, A123, 24, A141, A151, 1, A172, 1, A191, A201, 0
+
+请注意，这些输出是根据您提供的样例和约束生成的，实际情况可能需要更深入的数据分析和领域知识。这些反事实样本尝试在保持原始样本某些特征不变的情况下，对其他特征进行合理的变化，以达到目标类别。
+A11,24,A31,A43,2000,A61,A74,1,A93,A103,4,A123,24,A141,A151,1,A172,1,A191,A201
+A11,24,A31,A40,5000,A61,A74,2,A93,A101,4,A123,24,A143,A151,1,A172,1,A191,A201
+A12,36,A32,A43,1546,A65,A73,3,A93,A103,5,A124,37,A141,A153,1,A173,1,A192,A201
+A12,36,A32,A40,3000,A65,A73,4,A93,A101,5,A124,37,A143,A153,1,A173,1,A192,A201
+A12,30,A32,A43,10000,A61,A74,2,A93,A103,6,A123,30,A141,A151,0,A172,2,A191,A201
+
+请注意，以上生成的反事实样本在保持原有类别不变的前提下，对可变特征进行了适当的调整，以满足反事实样本的要求。同时，考虑到特征的合理性和实际意义，如年龄合理增加，信用额度适当调整等。
+Estatus            A11
+Duration            12
+Chistory           A32
+Purpose            A40
+Ncredit           2000
+Saccount           A61
+EmploySince        A74
+Insrate              2
+Pstatus            A91
+Odebtors          A101
+ResidenceSince       3
+Property          A123
+Age                 36
+Insplans          A143
+House             A152
+NTBcredit            1
+Job               A173
+NMpeople             2
+Telephone         A191
+Fworker           A201
+
+Estatus            A11
+Duration            18
+Chistory           A32
+Purpose            A40
+Ncredit           1500
+Saccount           A61
+EmploySince        A74
+Insrate              3
+Pstatus            A91
+Odebtors          A101
+ResidenceSince       5
+Property          A123
+Age                 36
+Insplans          A143
+House             A152
+NTBcredit            0
+Job               A173
+NMpeople             1
+Telephone         A191
+Fworker           A201
+
+Estatus            A11
+Duration            24
+Chistory           A31
+Purpose            A40
+Ncredit           1200
+Saccount           A61
+EmploySince        A74
+Insrate              2
+Pstatus            A91
+Odebtors          A101
+ResidenceSince       3
+Property          A123
+Age                 36
+Insplans          A143
+House             A152
+NTBcredit            1
+Job               A174
+NMpeople             1
+Telephone         A191
+Fworker           A201
+
+Estatus            A11
+Duration            12
+Chistory           A32
+Purpose            A41
+Ncredit           1300
+Saccount           A61
+EmploySince        A74
+Insrate              2
+Pstatus            A91
+Odebtors          A101
+ResidenceSince       3
+Property          A123
+Age                 36
+Insplans          A143
+House             A152
+NTBcredit            1
+Job               A173
+NMpeople             1
+Telephone         A191
+Fworker           A201
+
+Estatus            A11
+Duration            12
+Chistory           A32
+Purpose            A40
+Ncredit           1100
+Saccount           A62
+EmploySince        A74
+Insrate              2
+Pstatus            A91
+Odebtors          A101
+ResidenceSince       3
+Property          A123
+Age                 36
+Insplans          A143
+House             A152
+NTBcredit            1
+Job               A173
+NMpeople             1
+Telephone         A191
+Fworker           A201
+
+请注意，以上反事实样本是基于原始样本的合理猜测，实际的反事实样本生成可能需要更复杂的算法和数据分析。
+Estatus,A11,Duration,60,Chistory,A32,Purpose,A43,Ncredit,8765,Saccount,A61,EmploySince,A73,Insrate,3,Pstatus,A92,Odebtors,A101,ResidenceSince,3,Property,A123,Age,34,Insplans,A143,House,A152,NTBcredit,1,Job,A174,NMpeople,1,Telephone,A192,Fworker,A201
+Estatus,A11,Duration,36,Chistory,A32,Purpose,A40,Ncredit,5432,Saccount,A61,EmploySince,A74,Insrate,2,Pstatus,A91,Odebtors,A101,ResidenceSince,4,Property,A123,Age,36,Insplans,A143,House,A153,NTBcredit,1,Job,A173,NMpeople,1,Telephone,A191,Fworker,A201
+Estatus,A11,Duration,24,Chistory,A31,Purpose,A40,Ncredit,3210,Saccount,A61,EmploySince,A74,Insrate,1,Pstatus,A93,Odebtors,A103,ResidenceSince,4,Property,A123,Age,37,Insplans,A141,House,A151,NTBcredit,1,Job,A172,NMpeople,1,Telephone,A192,Fworker,A201
+Estatus,A11,Duration,48,Chistory,A32,Purpose,A43,Ncredit,6758,Saccount,A62,EmploySince,A73,Insrate,3,Pstatus,A92,Odebtors,A101,ResidenceSince,2,Property,A123,Age,31,Insplans,A143,House,A152,NTBcredit,1,Job,A173,NMpeople,2,Telephone,A191,Fworker,A201
+Estatus,A11,Duration,24,Chistory,A32,Purpose,A43,Ncredit,1546,Saccount,A63,EmploySince,A74,Insrate,4,Pstatus,A93,Odebtors,A101,ResidenceSince,4,Property,A123,Age,24,Insplans,A141,House,A151,NTBcredit,1,Job,A173,NMpeople,1,Telephone,A193,Fworker,A201
+
+请注意，以上反事实样本是基于原始样本的合理猜测，实际的反事实生成可能需要复杂的算法和更多的背景知识。同时，为了遵守约束，如种族、性别等不可改变的特征未被修改。
+A11,36,A32,A40,5678,A61,A74,2,A91,A101,3,A123,29,A141,A151,1,A172,1,A191,A201
+A11,48,A32,A43,8765,A62,A73,3,A92,A102,4,A123,32,A142,A152,1,A173,1,A192,A202
+A11,60,A32,A41,12890,A63,A72,4,A93,A103,5,A124,35,A143,A153,1,A174,1,A193,A201
+A11,24,A32,A42,3672,A64,A75,1,A91,A101,6,A123,28,A141,A151,1,A171,1,A191,A201
+A11,12,A32,A40,1234,A61,A74,3,A92,A102,2,A123,27,A142,A152,1,A173,1,A192,A202
+
+请注意，以上反事实样本是基于原始样本的合理猜测，实际的反事实样本生成可能需要更复杂的逻辑和算法，以确保满足所有约束条件。在实际应用中，这些反事实样本应该通过一个训练有素的模型生成，以确保其准确性和合理性。
